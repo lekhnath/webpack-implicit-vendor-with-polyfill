@@ -1,6 +1,6 @@
 # Webpack implicit vendor bundle with polyfill bundle
 
-This repo is created to demonstrate answer provided to this SO [Question](https://stackoverflow.com/q/43716644/2071612).
+This repo is created to demonstrate [answer](https://stackoverflow.com/a/48679069/2071612) provided to this SO [Question](https://stackoverflow.com/q/43716644/2071612).
 
 ## \# Available npm commands:
 
