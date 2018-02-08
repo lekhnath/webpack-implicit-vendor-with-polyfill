@@ -1,0 +1,29 @@
+{
+  "name": "webpack-implicit-vendor-with-polyfill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:build": "rm -rf build/dist",
+    "prebuild": "npm run clean:build",
+    "build": "NODE_ENV=production NODE_PATH=./ webpack -p --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "typescript": "^2.3.2",
+    "webpack": "^2.7.0"
+  },
+  "dependencies": {
+    "@angular/common": "^4.4.6",
+    "@angular/core": "^4.4.6",
+    "@angular/platform-browser": "^4.4.6",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  }
+}
